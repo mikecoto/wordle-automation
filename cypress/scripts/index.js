@@ -43,8 +43,8 @@ class Wordle {
     return result;
   }
 
-  //Validation message method when loose the game
-  validateGameLoose() {
+  //Validation message method when lose the game
+  validateGameLose() {
     this.elements
       .result_modal()
       .contains("loose!")
