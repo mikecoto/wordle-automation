@@ -47,8 +47,8 @@ class Wordle {
   validateGameLose() {
     this.elements
       .result_modal()
-      .contains("loose!")
-      .should("have.text", "Sorry, you loose!");
+      .contains("lose!")
+      .should("have.text", "Sorry, you lose!");
   }
 
   //Validation message method when win the game

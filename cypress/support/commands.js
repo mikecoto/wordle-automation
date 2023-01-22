@@ -9,5 +9,5 @@ Cypress.Commands.add("validateWinGame", () => {
 //Loose game Command
 Cypress.Commands.add("validateLoseGame", () => {
   index.typeNewLetter();
-  index.validateGameLoose();
+  index.validateGameLose();
 });
