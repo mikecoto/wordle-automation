@@ -6,7 +6,7 @@ describe("wordle automation testing process", () => {
     cy.visit("");
   });
 
-  it("loose game scenario", () => {
+  it("lose game scenario", () => {
     cy.validateLoseGame();
   });
 });
